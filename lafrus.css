@@ -1,0 +1,210 @@
+/* lafrus.css */
+
+/* Use of Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+/* Navigation styles */
+.main-nav {
+  background-color: #333;
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.main-nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.main-nav li a:hover {
+  background-color: #555;
+}
+
+/* Section styles */
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+section p {
+  line-height: 1.5;
+}
+
+/* Form styles */
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Creative design elements */
+.my-image {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.youtube-video {
+  width: 100%;
+  height: 400px;
+}
+
+.location-list {
+  list-style: none;
+  padding: 0;
+}
+
+.location-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.location-list li:before {
+  content: "▸";
+  color: #333;
+  margin-right: 10px;
+}
+
+/* Color usage */
+.bg-primary {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.text-primary {
+  color: #4285f4;
+}
+
+.bg-secondary {
+  background-color: #fbbc05;
+  color: #fff;
+}
+
+.text-secondary {
+  color: #fbbc05;
+}
+
+.bg-tertiary {
+  background-color: #34a853;
+  color: #fff;
+}
+
+.text-tertiary {
+  color: #34a853;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  section {
+    margin-bottom: 10px;
+  }
+
+  form input[type="text"],
+  form input[type="number"],
+  form input[type="date"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+
+  .youtube-video {
+    height: 250px;
+  }
+}
+/* lafrus.css */
+
+/* Table styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th, table td {
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #333;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
